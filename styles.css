@@ -249,6 +249,12 @@ footer {
   margin-top: 10px;
 }
 
+.quick-links ul li:hover {
+  opacity: 1;
+  font-size: 30px;
+  /* transition: 0.5s; */
+}
+
 .quick-links ul li, .social-media a {
     margin-bottom: 10px;
 }
@@ -292,6 +298,72 @@ footer {
     font-size: 14px;
   }
 
+  /* blog */
+  .blog-posts {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-posts article {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.blog-posts h2 {
+    font-size: 24px;
+    color: black;
+}
+
+.blog-posts p {
+    font-size: 16px;
+    color: #666;
+}
+
+.like-button, .share-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.comments {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.comments h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.comments form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comments textarea {
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.comments input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 
 /* Media Query*/
 
