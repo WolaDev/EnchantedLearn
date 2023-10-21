@@ -299,7 +299,7 @@ footer {
   }
 
   /* blog */
-  .blog-posts {
+.blog-posts {
     background-color: white;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
