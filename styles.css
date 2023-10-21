@@ -220,10 +220,69 @@ body, h1, h2, h3, p, ul, li {
   #contact .cta-button:hover {
     background-color: #ff6f00;
   }
-  
+ 
+  /* Styling footer with quick links and social media icons */
+footer {
+    background-color: rgb(4, 9, 30);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.quick-links ul, .social-media a {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quick-links ul li {
+  text-align: left;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.quick-links ul li, .social-media a {
+    margin-bottom: 10px;
+}
+
+.quick-links ul li a, .social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media a:last-child {
+    margin-right: 0;
+}
+
+.social-media a img {
+    width: 24px;
+    height: auto /*24px*/;
+}
+
+.social-media a .width {
+  width: 26px;
+  height: auto;
+  border-radius: 50%;
+}
+.social-media a .size {
+  width: 26px;
+  height: auto;
+}
   /* Style the footer */
   footer {
-    background-color: rgb(4, 9, 30);
+    /* background-color: rgb(4, 9, 30); */
     padding: 20px;
     color: #fff;
     text-align: center;
